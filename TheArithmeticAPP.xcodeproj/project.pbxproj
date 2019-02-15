@@ -14,6 +14,7 @@
 		3FA6032C22162713009E91E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6032A22162713009E91E4 /* LaunchScreen.storyboard */; };
 		3FA6033722162713009E91E4 /* TheArithmeticAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6033622162713009E91E4 /* TheArithmeticAPPTests.swift */; };
 		3FA6034222162713009E91E4 /* TheArithmeticAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6034122162713009E91E4 /* TheArithmeticAPPUITests.swift */; };
+		3FF87077221654DA00AFE0E5 /* ExerciseCoach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF87076221654DA00AFE0E5 /* ExerciseCoach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FA6033D22162713009E91E4 /* TheArithmeticAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheArithmeticAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA6034122162713009E91E4 /* TheArithmeticAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheArithmeticAPPUITests.swift; sourceTree = "<group>"; };
 		3FA6034322162713009E91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF87076221654DA00AFE0E5 /* ExerciseCoach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCoach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3FA6032822162713009E91E4 /* Assets.xcassets */,
 				3FA6032A22162713009E91E4 /* LaunchScreen.storyboard */,
 				3FA6032D22162713009E91E4 /* Info.plist */,
+				3FF87076221654DA00AFE0E5 /* ExerciseCoach.swift */,
 			);
 			path = TheArithmeticAPP;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA6032422162712009E91E4 /* ViewController.swift in Sources */,
+				3FF87077221654DA00AFE0E5 /* ExerciseCoach.swift in Sources */,
 				3FA6032222162712009E91E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANHJJX5G58;
 				INFOPLIST_FILE = TheArithmeticAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANHJJX5G58;
 				INFOPLIST_FILE = TheArithmeticAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
