@@ -23,5 +23,7 @@ struct ExerciseCoach{
         let met = sports[during]
         let timetoloose = 3500 / (met! * 3.5 * weight/2.2/200)
         return timetoloose
+        
+        
     }
 }
